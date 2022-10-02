@@ -1,0 +1,108 @@
+html, body, p, h1, h2,h3, h4, h5, h6, p {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+#main-content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+        
+html, body {
+    margin: 30px;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-top: 60px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p, ul, ol, li, figure, figcaption {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+::selection {
+    background: black;
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+details, summary {
+list-style:none;
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+details summary::details-marker {
+  display:none;
+}
+
+summary {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+  outline-style: none;
+}
+
+summary:hover {
+    text-decoration: underline
+}
+
+p {
+    text-align: justify;
+}
+
+#about, #thoughts, #reviews, #projects, #resume, #contact {
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+/* No indent, for modifying the default indent of h1, h2, etc. */
+.first {
+    margin-left: 0px !important;
+}
+
+.second {
+    margin-left: 50px !important;
+}
+
+img {
+    max-width: 100%;
+    margin-top:30px;
+}
+
+.subtitle {
+    margin-top: 30px;
+}
+
+figure {
+    margin: 0;
+    margin-top: 30px;
+}
+
+figcaption {
+    margin: 0;
+}
